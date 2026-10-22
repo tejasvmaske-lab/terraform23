@@ -1,6 +1,7 @@
 name: Terraform Local
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
